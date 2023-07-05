@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alunos",
+  "info": {
+    "singularName": "aluno",
+    "pluralName": "alunos",
+    "displayName": "Aluno",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": false
+    },
+    "email": {
+      "type": "email",
+      "required": false
+    },
+    "telefone": {
+      "required": false,
+      "type": "biginteger"
+    },
+    "mensalidade": {
+      "type": "float",
+      "required": false
+    },
+    "situacao": {
+      "type": "boolean",
+      "default": true,
+      "required": false
+    },
+    "observacao": {
+      "type": "string",
+      "required": false
+    },
+    "senha": {
+      "type": "string",
+      "required": false
+    }
+  }
+}
